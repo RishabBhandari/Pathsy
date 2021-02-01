@@ -1,0 +1,265 @@
+source,target,count
+Boston College,Morgan Stanley,1
+Bowdoin College,Guggenheim Partners,1
+Brigham Young University,J.P. Morgan,1
+Brown,BAML,1
+Carnegie Mellon,Lazard,1
+College of William & Mary,Morgan Stanley,1
+Columbia,Evercore,1
+Columbia,J.P. Morgan,1
+Columbia,Lazard,1
+Cornell,J.P. Morgan,1
+Cornell,Barclays,1
+Cornell,Goldman Sachs,1
+Cornell,BCG,1
+Cornell,Evercore,1
+Cornell,Morgan Stanley,1
+Dartmouth College,Bain & Company,1
+Dartmouth College,Bain Capital,1
+Dartmouth College,Lazard,1
+Dartmouth College,Silverlake,1
+Duke,Bain Capital,1
+Georgetown,Morgan Stanley,1
+Georgetown,Perella Weinberg,1
+Georgetown,Credit Suisse,1
+Harvard,Goldman Sachs,1
+Harvard,BAML,1
+Harvard,Accel Partners,1
+Harvard,Credit Suisse,1
+Harvard,Morgan Stanley,1
+Harvard,Morgan Stanley,1
+Harvard,Credit Suisse,1
+Hobart College,Eastdil Secured | Wells Fargo Securities,1
+Ivey Business School at Western University,Morgan Stanley,1
+Ivey Business School at Western University,Evercore,1
+Ivey Business School at Western University,Silverlake,1
+Ivey Business School at Western University,Credit Suisse,1
+Ivey Business School at Western University,Silverlake,1
+Johns Hopkins,Morgan Stanley,1
+Johns Hopkins,Jeffries,1
+Lehigh,Credit Suisse,1
+Miami University,J.P. Morgan,1
+Michigan State,Barclays,1
+Middlebury,Piper Jaffray,1
+Middlebury,Barclays,1
+Middlebury,Barclays,1
+MIT,Warburg Pincus,1
+MIT,Warburg Pincus,1
+MIT,Warburg Pincus,1
+Northeastern,Bain Capital,1
+Northern Illinois University,J.P. Morgan,1
+Northwestern,McKinsey,1
+Northwestern,Oliver Wyman,1
+Northwestern,Evercore,1
+Northwestern,Greenhill & Co.,1
+Northwestern,Barclays,1
+Northwestern,Greenhill & Co.,1
+NYU Stern,Vista Equity Partners,1
+NYU Stern,J.P. Morgan,1
+NYU Stern,Credit Suisse,1
+Princeton,Citigroup,1
+Princeton,Bain Capital,1
+Princeton,J.P. Morgan,1
+Princeton,Morgan Stanley,1
+Princeton,Aquiline Capital Partners,1
+Princeton,Greenhill & Co.,1
+Princeton,Barclays,1
+Princeton,Deutsche Bank,1
+Princeton,Deutsche Bank,1
+Rice University,J.P. Morgan,1
+Rutgers,J.P. Morgan,1
+Skidmore,Barclays,1
+Stanford,Bain & Company,1
+Stanford,Credit Suisse,1
+Stanford,Altamont Capital Partners,1
+Stanford,Goldman Sachs,1
+Swathmore,Willaim Blair,1
+The Ohio State University,Evercore,1
+The University of Texas at Austin,Evercore,1
+UC Berkley,BCG,1
+UC Berkley,Morgan Stanley,1
+UCBerkley,PJT Partners,1
+UCBerkley,Bain & Company,1
+UChicago,Morgan Stanley,1
+UChicago,J.P. Morgan,1
+UIUC,Jeffries,1
+UIUC,Moelis & Co,1
+UMichigan,BAML,1
+UMichigan,Bain & Company,1
+UMichigan,BAML,1
+UMichigan,PJT Partners,1
+University of Illnois,J.P. Morgan,1
+University of Michigan,Goldman Sachs,1
+University of Michigan,Goldman Sachs,1
+University of New South Wales,BCG,1
+University of Notre Dame ,McKinsey,1
+University of Notre Dame ,Credit Suisse,1
+University of Notre Dame ,Credit Suisse,1
+University of Notre Dame ,J.P. Morgan,1
+University of Notre Dame ,Deutsche Bank,1
+University of South Carolina,Jeffries,1
+University of South Dakota,Goldman Sachs,1
+University of Waterloo,Morgan Stanley,1
+University of Wisconsin,Huron Consulting,1
+"University of Wisconsin, Madison",J.P. Morgan,1
+UPenn,J.P. Morgan,1
+UPenn,Credit Suisse,1
+UPenn,Goldman Sachs,1
+UPenn,Warburg Pincus,1
+UPenn,Evercore,1
+UPenn,Morgan Stanley,1
+UPenn,Dodge & Cox ,1
+UPenn,Warburg Pincus,1
+UPenn,Warburg Pincus,1
+UPenn,Warburg Pincus,1
+UPenn,Warburg Pincus,1
+UPenn,Oppenheimer & Co,1
+UPenn,Evercore,1
+UPenn,Evercore,1
+UPenn,Silverlake,1
+UPenn,Silverlake,1
+UPenn,J.P. Morgan,1
+UPenn,Silverlake,1
+UPenn,Citigroup,1
+UPenn,Silverlake,1
+UPenn,Silverlake,1
+UPenn,Credit Suisse,1
+USC,Bain & Company,1
+USC,Lazard,1
+USC,Morgan Stanley,1
+UT Austin,BCG,1
+UVA,Financial Technology Partners,1
+UVA,Credit Suisse,1
+Villanova,Goldman Sachs,1
+Villanova,BAML,1
+Villanova,Citigroup,1
+Villanova,Deutsche Bank,1
+WashU St. Louis,Goldman Sachs,1
+Wellesley,Morgan Stanley,1
+Willams College,Morgan Stanley,1
+William & Mary,J.P. Morgan,1
+Yale,LEM Capital,1
+Yale,Goldman Sachs,1
+Yale,JBG Companies,1
+Yale,Credit Suisse,1
+Yale,McKinsey,1
+Morgan Stanley,GTCR,1
+Guggenheim Partners,Vista Equity Partners,1
+J.P. Morgan,Warburg Pincus,1
+Lazard,GTCR,1
+Morgan Stanley,Vista Equity Partners,1
+Evercore,Bain Capital,1
+J.P. Morgan,Warburg Pincus,1
+Lazard,EQT Partners,1
+J.P. Morgan,Bain Capital,1
+Barclays,EQT Partners,1
+BCG,MDP,1
+Evercore,Silverlake,1
+Bain & Company,Bain Capital,1
+Lazard,GTCR,1
+Morgan Stanley,Bain Capital,1
+Perella Weinberg,Warburg Pincus,1
+Goldman Sachs,Warburg Pincus,1
+BAML,Vista Equity Partners,1
+Accel Partners,Vista Equity Partners,1
+Credit Suisse,MDP,1
+Morgan Stanley,Silverlake,1
+Morgan Stanley,Silverlake,1
+Credit Suisse,Advent,1
+Eastdil Secured | Wells Fargo Securities,Brickman,1
+Morgan Stanley,Warburg Pincus,1
+Evercore,Silverlake,1
+Credit Suisse,Silverlake,1
+Morgan Stanley,Bain Capital,1
+Jeffries,GTCR,1
+Credit Suisse,Silverlake,1
+J.P. Morgan,MDP,1
+Barclays,GTCR,1
+Piper Jaffray,CVC Capital Partners,1
+Barclays,EQT Partners,1
+Barclays,EQT Partners,1
+J.P. Morgan,GTCR,1
+McKinsey,Bain Capital,1
+Oliver Wyman,MDP,1
+Evercore,MDP,1
+Greenhill & Co.,MDP,1
+Barclays,GTCR,1
+Greenhill & Co.,Silverlake,1
+J.P. Morgan,CVC Capital Partners,1
+Credit Suisse,Bridge Growth Partners,1
+Citigroup,Bain Capital,1
+Bain Capital,Warburg Pincus,1
+J.P. Morgan,Warburg Pincus,1
+Morgan Stanley,Vista Equity Partners,1
+Aquiline Capital Partners,CVC Capital Partners,1
+Greenhill & Co.,MDP,1
+Barclays,US Army,1
+Deutsche Bank,GTCR,1
+Deutsche Bank,GTCR,1
+J.P. Morgan,MDP,1
+J.P. Morgan,GTCR,1
+Barclays,Vista Equity Partners,1
+Bain & Company,Bain Capital,1
+Credit Suisse,EQT Partners,1
+Altamont Capital Partners,Silverlake,1
+Goldman Sachs,Silverlake,1
+Willaim Blair,GTCR,1
+Evercore,MDP,1
+Evercore,Vista Equity Partners,1
+BCG,Warburg Pincus,1
+Morgan Stanley,Silverlake,1
+PJT Partners,Goldman Sachs,1
+Bain & Company,Bill & Melinda Gates Foundation,1
+Morgan Stanley,Warburg Pincus,1
+J.P. Morgan,CVC Capital Partners,1
+Jeffries,GTCR,1
+Moelis & Co,GTCR,1
+BAML,EQT Partners,1
+Bain & Company,EQT Partners,1
+BAML,EQT Partners,1
+PJT Partners,MDP,1
+J.P. Morgan,GTCR,1
+Goldman Sachs,Apax Capital,1
+Goldman Sachs,GTCR,1
+BCG,Warburg Pincus,1
+McKinsey,Bain Capital,1
+Credit Suisse,MDP,1
+Credit Suisse,GTCR,1
+J.P. Morgan,GTCR,1
+Deutsche Bank,GTCR,1
+Jeffries,Bain Capital,1
+Goldman Sachs,Bain Capital,1
+Morgan Stanley,Apax Capital,1
+Huron Consulting,Citi,1
+J.P. Morgan,Chicago Pacific Founders,1
+J.P. Morgan,Bain Capital,1
+Credit Suisse,Warburg Pincus,1
+Goldman Sachs,Warburg Pincus,1
+Evercore,Warburg Pincus,1
+Morgan Stanley,Duetto,1
+Dodge & Cox ,Warburg Pincus,1
+Oppenheimer & Co,Vista Equity Partners,1
+Evercore,CVC Capital Partners,1
+Evercore,Silverlake,1
+J.P. Morgan,Silverlake,1
+Citigroup,Silverlake,1
+Credit Suisse,Silverlake,1
+Bain & Company,Bain Capital,1
+Lazard,CVC Capital Partners,1
+Morgan Stanley,EQT Partners,1
+BCG,Youtube Strategy,1
+Financial Technology Partners,CVC Capital Partners,1
+Credit Suisse,Silverlake,1
+Goldman Sachs,Varadero Capita,1
+BAML,CVC Capital Partners,1
+Citigroup,LCatterton,1
+Deutsche Bank,Perella Weinberg,1
+Goldman Sachs,Advent,1
+Morgan Stanley,Advent,1
+Morgan Stanley,GTCR,1
+J.P. Morgan,EQT Partners,1
+LEM Capital,Bain Capital,1
+Goldman Sachs,Bain Capital,1
+JBG Companies,Bain Capital,1
+Credit Suisse,EQT Partners,1
+McKinsey,NEA,1
