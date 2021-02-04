@@ -59,6 +59,8 @@
       <a href="CS.html"> Credit Suisse </a>
       <a class="active" href="Evercore.html"> Evercore </a>
       <a href="McKinsey.html"> McKinsey </a>
+      <a href="BainCapital.html"> Bain Capital </a>
+
       <a href="Bain.html"> Bain </a>
 
     </div>
@@ -82,8 +84,8 @@
 var units = "claims";
 
 var margin = {top: 10, right: 10, bottom: 0, left: 30},
-    width = 2000 - margin.left - margin.right,
-    height = 700 - margin.top - margin.bottom;
+    width = 1300 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),    // zero decimal places
     formatMillions = d3.format(",.4s"),    // millions, 1 decimal place
@@ -235,10 +237,6 @@ d3.csv("Evercore.csv", function(error, data) {
 
 </script>
 
-<div style="padding-left:2%;padding-right:2%" class='divBoxHomePage'>
-  <h1>The Bottom Line</h1>
-  <p> Go to a top school and do investment banking. </p>
-</div>
 
 
 

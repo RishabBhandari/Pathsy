@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Pathsy.</title>
+<style>
+  body {
+    font-family: Arial;
+  }
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
+
+</style>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" />
+
+</head>
+
+<body>
+
+<div class="header">
+  <a href="index.html" class="logo"> Pathsy. </a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a  href="About.html">About </a>
+    <a href="Contact.html">Contact </a>
+    <a class='forum' href="careerpage.html"> Career Insights </a>
+  </div>
+</div>
+
+<div class="secondHeader">
+    <a class="active"  href="privateEquity.html">Private Equity </a>
+    <a href="hedgeFund.html">Hedge Fund </a>
+    <a href="Venture Capital.html"> Venture Capital </a>
+  </div>
+
+  <div class="secondHeader">
+      <a href="privateEquity.html">All Data </a>
+      <a  href="BainCapital.html"> Bain Capital </a>
+      <a class="active" href="WarburgPincus.html"> Warburg Pincus </a>
+      <a href="VistaEquity.html"> Vista Equity Partners </a>
+      <a href="SilverLake.html"> Silver Lake Partners </a>
+
+
+    </div>
+
+</br>
+
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+<div id="chartdiv"></div>
+</br>
+</br>
+</br>
+</br>
+
+<style>
+
+  body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#chartdiv {
+  width: 100%;
+  height: 800px
+}
+
+</style>
+
+
+<script>
+
+  /**
+   * ---------------------------------------
+   * This demo was created using amCharts 4.
+   *
+   * For more information visit:
+   * https://www.amcharts.com/
+   *
+   * Documentation is available at:
+   * https://www.amcharts.com/docs/v4/
+   * ---------------------------------------
+   */
+
+  // Themes begin
+  am4core.useTheme(am4themes_animated);
+  // Themes end
+
+  var chart = am4core.create("chartdiv", am4charts.SankeyDiagram);
+  chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+
+  chart.data = [
+
+    { from: 'UPenn', to: 'Credit Suisse', value: 1, id:'24' },		{ from: 'Credit Suisse', to: 'Warburg Pincus', value: 1, id:'24' },
+    { from: 'UPenn', to: 'Goldman Sachs', value: 1, id:'25' },		{ from: 'Goldman Sachs', to: 'Warburg Pincus', value: 1, id:'25' },
+    { from: 'Columbia', to: 'J.P. Morgan', value: 1, id:'26' },		{ from: 'J.P. Morgan', to: 'Warburg Pincus', value: 1, id:'26' },
+    { from: 'Ivey Business School', to: 'Morgan Stanley', value: 1, id:'27' },		{ from: 'Morgan Stanley', to: 'Warburg Pincus', value: 1, id:'27' },
+    { from: 'UPenn', to: 'Warburg Pincus', value: 1, id:'28' },
+    { from: 'MIT', to: 'Warburg Pincus', value: 1, id:'29' },
+    { from: 'UPenn', to: 'Evercore', value: 1, id:'30' },		{ from: 'Evercore', to: 'Warburg Pincus', value: 1, id:'30' },
+    { from: 'Villanova', to: 'Goldman Sachs', value: 1, id:'31' },		{ from: 'Goldman Sachs', to: 'Varadero Capita', value: 1, id:'31' },	{ from: 'Varadero Capita', to: 'Warburg Pincus', value: 1, id:'31' },
+    { from: 'Harvard', to: 'Goldman Sachs', value: 1, id:'32' },		{ from: 'Goldman Sachs', to: 'Warburg Pincus', value: 1, id:'32' },
+    { from: 'Georgetown', to: 'Perella Weinberg', value: 1, id:'33' },		{ from: 'Perella Weinberg', to: 'Warburg Pincus', value: 1, id:'33' },
+    { from: 'UChicago', to: 'Morgan Stanley', value: 1, id:'34' },		{ from: 'Morgan Stanley', to: 'Warburg Pincus', value: 1, id:'34' },
+    { from: 'Princeton', to: 'Bain Capital', value: 1, id:'35' },		{ from: 'Bain Capital', to: 'Warburg Pincus', value: 1, id:'35' },
+    { from: 'UPenn', to: 'Morgan Stanley', value: 1, id:'36' },		{ from: 'Morgan Stanley', to: 'Duetto', value: 1, id:'36' },	{ from: 'Duetto', to: 'Warburg Pincus', value: 1, id:'36' },
+    { from: 'Princeton', to: 'J.P. Morgan', value: 1, id:'37' },		{ from: 'J.P. Morgan', to: 'Warburg Pincus', value: 1, id:'37' },
+    { from: 'UPenn', to: 'Dodge & Cox ', value: 1, id:'38' },		{ from: 'Dodge & Cox ', to: 'Warburg Pincus', value: 1, id:'38' },
+    { from: 'UPenn', to: 'Warburg Pincus', value: 1, id:'39' },
+    { from: 'UPenn', to: 'Warburg Pincus', value: 1, id:'40' },
+    { from: 'Brigham Young', to: 'J.P. Morgan', value: 1, id:'41' },		{ from: 'J.P. Morgan', to: 'Warburg Pincus', value: 1, id:'41' },
+    { from: 'UC Berkley', to: 'BCG', value: 1, id:'42' },		{ from: 'BCG', to: 'Warburg Pincus', value: 1, id:'42' },
+    { from: 'New South Wales', to: 'BCG', value: 1, id:'43' },		{ from: 'BCG', to: 'Warburg Pincus', value: 1, id:'43' },
+    { from: 'MIT', to: 'Warburg Pincus', value: 1, id:'44' },
+    { from: 'UPenn', to: 'Warburg Pincus', value: 1, id:'45' },
+    { from: 'UPenn', to: 'Warburg Pincus', value: 1, id:'46' },
+
+
+
+  ];
+
+  let hoverState = chart.links.template.states.create("hover");
+  hoverState.properties.fillOpacity = 0.6;
+
+  chart.dataFields.fromName = "from";
+  chart.dataFields.toName = "to";
+  chart.dataFields.value = "value";
+
+  chart.links.template.propertyFields.id = "id";
+  chart.links.template.colorMode = "solid";
+  chart.links.template.fill = new am4core.InterfaceColorSet().getFor("alternativeBackground");
+  chart.links.template.fillOpacity = 0.1;
+  chart.links.template.tooltipText = "";
+
+  // highlight all links with the same id beginning
+  chart.links.template.events.on("over", function(event){
+    let link = event.target;
+    let id = link.id.split("-")[0];
+
+    chart.links.each(function(link){
+      if(link.id.indexOf(id) != -1){
+        link.isHover = true;
+      }
+    })
+  })
+
+  chart.links.template.events.on("out", function(event){
+    chart.links.each(function(link){
+      link.isHover = false;
+    })
+  })
+
+  // for right-most label to fit
+  chart.paddingRight = 200;
+  chart.paddingLeft = 20;
+
+
+  // make nodes draggable
+  var nodeTemplate = chart.nodes.template;
+  nodeTemplate.inert = true;
+  nodeTemplate.readerTitle = "Drag me!";
+  nodeTemplate.showSystemTooltip = true;
+  nodeTemplate.width = 20;
+
+  // make nodes draggable
+  var nodeTemplate = chart.nodes.template;
+  nodeTemplate.readerTitle = "Click to show/hide or drag to rearrange";
+  nodeTemplate.showSystemTooltip = true;
+  nodeTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer
+
+</script>
